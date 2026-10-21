@@ -1,0 +1,34 @@
+USE DW_PreciosDigemid;
+GO
+
+SET STATISTICS TIME ON;
+SET STATISTICS IO ON;
+GO
+
+-- EXP-01: 100 000 filas
+SELECT
+    COUNT_BIG(*) AS TotalFilas,
+    AVG(Precio_Media) AS PrecioPromedio
+FROM dbo.HECHO_PRECIO_PRUEBA
+OPTION (MAXDOP 1);
+GO
+
+-- EXP-02: 500 000 filas
+SELECT
+    COUNT_BIG(*) AS TotalFilas,
+    AVG(Precio_Media) AS PrecioPromedio
+FROM dbo.HECHO_PRECIO_500K
+OPTION (MAXDOP 1);
+GO
+
+-- EXP-03: 1 000 000 de filas
+SELECT
+    COUNT_BIG(*) AS TotalFilas,
+    AVG(Precio_Media) AS PrecioPromedio
+FROM dbo.HECHO_PRECIO_1M
+OPTION (MAXDOP 1);
+GO
+
+SET STATISTICS TIME OFF;
+SET STATISTICS IO OFF;
+GO
