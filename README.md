@@ -69,4 +69,4 @@ Confirmar que las seis tablas aparecen en el panel de datos de Power BI Desktop,
 - Repositorio (GitHub): Ingrid Aybar, Samuel Gutierre
 ## Fuente de datos
 
-Dirección General de Medicamentos, Insumos y Drogas (DIGEMID). *Indicador de precios de productos farmacéuticos*. Ministerio de Salud del Perú.
+Dirección General de Medicamentos, Insumos y Drogas (DIGEMID). *Indicador de precios de productos farmacéuticos*. Ministerio de Salud del Perú. 
