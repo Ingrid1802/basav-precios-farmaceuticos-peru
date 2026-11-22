@@ -190,5 +190,3 @@ A propósito: así el script corre en cualquier computadora con Python instalado
 ## Fuente de datos
 
 Dirección General de Medicamentos, Insumos y Drogas (DIGEMID). *Indicador de precios de productos farmacéuticos*. Ministerio de Salud del Perú.
-
-Dirección General de Medicamentos, Insumos y Drogas (DIGEMID). *Indicador de precios de productos farmacéuticos*. Ministerio de Salud del Perú. 
