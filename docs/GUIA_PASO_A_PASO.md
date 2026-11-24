@@ -135,7 +135,7 @@ Ejecuta 10 operaciones sobre el dataset de 1M (lectura, transformaciones *narrow
 
 ### D5. Demás experimentos de Big Data
 - `EF_exp_samuel.ipynb`: número de particiones (1 a 32) con 1M de filas.
-- `EF_exp_gonzalo.ipynb`: CSV frente a Parquet (pendiente de subir).
+- `EF_exp_gonzalo.ipynb`: CSV frente a Parquet.
 - `EF_exp_Steve.ipynb`: `inferSchema` frente a esquema explícito.
 
 Todos se ejecutan igual que en D2.
