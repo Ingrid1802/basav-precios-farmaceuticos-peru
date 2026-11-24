@@ -18,6 +18,6 @@ Capturas y archivos que muestran que cada experimento se ejecutó, ordenados por
 | `ingrid/BI_Exp2_Carga_masiva/` | E-BI-2: entorno, procedimiento, corridas, detalle y resumen con medianas |
 | `samuel/` | E-BI-3 (`Samuel_BI_*`, incluye la repetición en Developer `Samuel_BI_dev_*`) y E-BD-3 (`Samuel_EXP_*`) |
 | `steve/` | E-BI-5 (`Steve_BI_*`) y E-BD-5 (`Steve_EXP_*`) |
-| `gonzalo/` | E-BI-4 (`Gonzalo_BI_*`) y E-BD-4 (`Gonzalo_EXP_*`) (pendiente de subir) |
+| `gonzalo/` | E-BI-4 (`Gonzalo_BI_*`) y E-BD-4 (`Gonzalo_EXP_*`) |
 
 Los números y el análisis están en el informe final, que cita cada captura por su nombre de archivo.
