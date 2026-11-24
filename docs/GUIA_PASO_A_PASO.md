@@ -106,7 +106,7 @@ py scripts/generar_sinteticos.py datos/datos_listos.csv 1000000 sinteticos_1m.cs
 ### C3. Demás experimentos de BI
 Funcionan igual: abres el script en SSMS, lo corres por bloques y lees el resumen con las medianas. El comentario del inicio de cada script dice qué mide:
 - `scripts/Samuel_EXP_BI.sql` y `scripts/Samuel_EXP_BI_dev.sql`: paralelismo (`MAXDOP`).
-- `scripts/EXP_BI_gonzalo_volumen.sql`: volumen de registros (pendiente de subir).
+- `scripts/EXP_BI_gonzalo_volumen.sql`: volumen de registros.
 - Steve: abre `Dashboard/experimentos/dashboard_DirectQuery.pbix` en Power BI Desktop y mide con **Optimizar → Analizador de rendimiento → Iniciar grabación → cambiar un filtro → Detener**.
 
 ---
