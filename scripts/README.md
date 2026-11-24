@@ -21,7 +21,7 @@
 | `EXP_BI_ingrid_carga.sql` | Ingrid | `BULK INSERT` de 1M filas: TABLOCK × BATCHSIZE. Necesita `C:\datos\sinteticos_1m.csv`. |
 | `Samuel_EXP_BI.sql` | Samuel | Paralelismo: `MAXDOP 1` frente al valor por defecto (SQL Server Express). |
 | `Samuel_EXP_BI_dev.sql` | Samuel | Mismo experimento repetido en SQL Server Developer. |
-| `EXP_BI_gonzalo_volumen.sql` | Gonzalo | Volumen de registros: 100k, 500k y 1M (pendiente de subir). |
+| `EXP_BI_gonzalo_volumen.sql` | Gonzalo | Volumen de registros: 100k, 500k y 1M. |
 | `pruebas/` | Equipo | Validación del dataset y pruebas iniciales sobre `HECHO_PRECIO_PRUEBA`. |
 | `pruebas/registro_ejecuciones.sql` | Equipo | Mide con `STATISTICS TIME/IO` un conteo y un promedio de `Precio_Media` sobre `HECHO_PRECIO_PRUEBA` (100k), `HECHO_PRECIO_500K` (500k) y 1M de filas, con `MAXDOP 1`. Son las pruebas iniciales de volumen. |
 | `pruebas/validacion_dataset.sql` | Equipo | Revisa que los datos estén completos: compara las filas de `STG_PRECIOS` con las de `HECHO_PRECIO` y cuenta los nulos en los campos de precio. |
