@@ -238,12 +238,12 @@ Cada integrante hizo un experimento de BI y uno de Big Data. En todos se descart
 | E-BI-1 | BI | Ingrid | Consulta con y sin **índice** no agrupado (1M de filas) | `scripts/EXP_BI_ingrid_indice.sql` | `evidencias/ingrid/BI_Exp1_Indice/` |
 | E-BI-2 | BI | Ingrid | **Carga masiva** con `BULK INSERT`: TABLOCK (con/sin) × BATCHSIZE (10 000 / 100 000) | `scripts/EXP_BI_ingrid_carga.sql` | `evidencias/ingrid/BI_Exp2_Carga_masiva/` |
 | E-BI-3 | BI | Samuel | **Paralelismo** (`MAXDOP 1` frente al valor por defecto), en SQL Server Express y Developer | `scripts/Samuel_EXP_BI.sql`, `scripts/Samuel_EXP_BI_dev.sql` | `evidencias/samuel/` (`Samuel_BI_*`) |
-| E-BI-4 | BI | Gonzalo | **Volumen de registros** (100k, 500k y 1M) en SQL Server | `scripts/EXP_BI_gonzalo_volumen.sql` (pendiente de subir) | `evidencias/gonzalo/` (pendiente) |
+| E-BI-4 | BI | Gonzalo | **Volumen de registros** (100k, 500k y 1M) en SQL Server | `scripts/EXP_BI_gonzalo_volumen.sql` | `evidencias/gonzalo/` (Gonzalo_BI_*) |
 | E-BI-5 | BI | Steve | Dashboard en modo **Importar frente a DirectQuery** (Analizador de rendimiento) | `Dashboard/experimentos/dashboard_DirectQuery.pbix` | `evidencias/steve/` (`Steve_BI_*`) |
 | E-BD-1 | Big Data | Ingrid | **Volumen de datos** (100k, 500k y 1M): lectura, filtro y agrupaciones | `bigdata/experimentos/EF_exp_ingrid.ipynb` | `evidencias/ingrid/BigData_Exp1_Volumen_de_datos/` |
 | E-BD-2 | Big Data | Ingrid | **Tipo de operación** en Spark (lectura CSV, narrow, wide, resumen, escritura Delta) | `bigdata/experimentos/EF_exp_ingrid_operaciones.ipynb` | `evidencias/ingrid/BigData_Exp2_Tipo_de_operacion/` |
 | E-BD-3 | Big Data | Samuel | **Número de particiones** (1, 2, 4, 8, 16 y 32) con 1M de filas | `bigdata/experimentos/EF_exp_samuel.ipynb` | `evidencias/samuel/` (`Samuel_EXP_*`) |
-| E-BD-4 | Big Data | Gonzalo | **Formato de archivo**: CSV frente a Parquet (100k, 500k y 1M) | `bigdata/experimentos/EF_exp_gonzalo.ipynb` (pendiente de subir) | `evidencias/gonzalo/` (pendiente) |
+| E-BD-4 | Big Data | Gonzalo | **Formato de archivo**: CSV frente a Parquet (100k, 500k y 1M) | `bigdata/experimentos/EF_exp_gonzalo.ipynb` | `evidencias/gonzalo/` (Gonzalo_EXP_*) |
 | E-BD-5 | Big Data | Steve | Lectura con **inferSchema frente a esquema explícito** (100k, 500k y 1M) | `bigdata/experimentos/EF_exp_Steve.ipynb` | `evidencias/steve/` (`Steve_EXP_*`) |
 
 Resultados destacados de los experimentos de Ingrid (medianas, entorno descrito en el informe):
