@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Datos sinteticos (pesan mas de 100 MB y GitHub los rechaza; se generan con scripts/generar_sinteticos.py)
+sinteticos_*.csv
