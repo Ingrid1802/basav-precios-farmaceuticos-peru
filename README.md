@@ -66,6 +66,10 @@ basav-precios-farmaceuticos-peru/
 ├── evidencias/                           Capturas y archivos de evidencia, por integrante y experimento
 │   └── README.md
 │
+├── docs/
+│   └── GUIA_PASO_A_PASO.md               Guía detallada para principiantes: instalación y todos los experimentos
+│
+│
 └── README.md                             Este archivo
 ```
 
